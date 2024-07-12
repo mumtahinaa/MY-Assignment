@@ -63,9 +63,12 @@ nav > li > a {
   margin-top: 30px;
   margin-left: 0;
   margin-right: 0;
-  height: 650px;
+  margin-bottom: auto;
+  padding-bottom: 45px;
+  /* height: 650px; */
 }
 .banner {
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -76,6 +79,7 @@ nav > li > a {
   gap: 5px;
 }
 .title {
+  position: static;
   color: rgb(13, 19, 33);
   font-size: 45px;
   font-weight: 800;
@@ -84,6 +88,7 @@ nav > li > a {
   text-align: center;
 }
 .descrip {
+  position: static;
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
@@ -95,6 +100,7 @@ nav > li > a {
   padding: 0 100px;
 }
 .contact-btn {
+  position: static;
   padding: 18px 33px 18px 24px;
   width: 200px;
   height: 55px;
@@ -143,7 +149,7 @@ nav > li > a {
   text-align: center;
   opacity: 0.7;
   padding: 0;
-  margin: 0 60px;
+  margin: 0 67px;
 }
 .big-box {
   display: flex;
@@ -322,4 +328,265 @@ nav > li > a {
   letter-spacing: 0%;
   text-align: left;
   opacity: 0.7;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin: 70px 148px 0;
+}
+.inspiration > h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.inspiration > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  padding: 0;
+  margin: 0 67px;
+}
+.video {
+  margin: 70px 148px 0;
+}
+.youtube {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+  margin: 48px 148px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.target {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin: 70px 148px 0;
+  background: rgb(255, 255, 255);
+}
+.target > div > h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.target > div > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  padding: 0;
+  margin: 0 67px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card-box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  margin-top: 24px;
+  margin-right: 24px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.card-box-1 > h4 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-box-1 > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.card-box-1 > a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin: 24px 0px;
+}
+.card-box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 35px;
+  margin-right: 24px;
+  margin-top: 24px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-box-2 > h4 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-box-2 > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.card-box-2 > a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  /* margin: 24px 0px; */
+  margin-top: 24px;
+}
+.card-box-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  margin-top: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.card-box-3 > h4 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-box-3 > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.card-box-3 > a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin: 24px 0px;
+}
+.hero {
+  height: 350px;
+  background: url(../assets/handshake.jpg);
+  background-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin: 150px;
+  padding: 64px 48px 64px 48px;
+}
+.support-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  /* margin-top: 25px; */
+  margin-left: 25px;
+}
+.support-2 > h3 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.support-2 > p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 16px 0 65px;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+form textarea {
+  width: 658px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px 19px 20px;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.submit-btn {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+  margin: 0px 16px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
 }
